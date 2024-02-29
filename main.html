@@ -8,8 +8,18 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript">
+        // Ask the user for the first number
+        const num1 = prompt("Enter the first number:");
+
+        // Ask the user for the second number
+        const num2 = prompt("Enter the second number:");
+
+        // Compare the two numbers and display the result
+        // Parse the input to ensure numeric comparison
+        const isEqual = parseInt(num1, 10) === parseInt(num2, 10);
+        alert("The numbers are equal: " + isEqual);
+    </script>
 
 </body>
 
